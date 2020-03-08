@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Memott",
+    "description": "Simple Memo App",
+    "slug": "Memott",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "jp.workabroad.memot"
+    },
+    "android": {
+      "package": "jp.workabroad.memot",
+      "versionCode": 2
+    }
+  }
+}
